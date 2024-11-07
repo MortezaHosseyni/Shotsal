@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shotsal.Data", "Shotsal.Data\Shotsal.Data.csproj", "{5AE8A675-CDBE-489F-BB95-1CE98C589AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shotsal.Logic", "Shotsal.Logic\Shotsal.Logic.csproj", "{FA7E81F7-E18A-49C8-86EC-791481980E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shotsal.Api", "Shotsal.Api\Shotsal.Api.csproj", "{E1416263-0720-4573-BB16-C59AF5355EA6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE8A675-CDBE-489F-BB95-1CE98C589AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE8A675-CDBE-489F-BB95-1CE98C589AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE8A675-CDBE-489F-BB95-1CE98C589AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE8A675-CDBE-489F-BB95-1CE98C589AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7E81F7-E18A-49C8-86EC-791481980E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7E81F7-E18A-49C8-86EC-791481980E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7E81F7-E18A-49C8-86EC-791481980E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7E81F7-E18A-49C8-86EC-791481980E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1416263-0720-4573-BB16-C59AF5355EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1416263-0720-4573-BB16-C59AF5355EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1416263-0720-4573-BB16-C59AF5355EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1416263-0720-4573-BB16-C59AF5355EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
